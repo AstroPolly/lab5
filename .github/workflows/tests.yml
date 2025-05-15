@@ -23,4 +23,4 @@ jobs:
           pip install pytest httpx
 
       - name: Run tests
-        run: python -m pytest devops-lab5-main\tests\
+        run: python -m pytest .
